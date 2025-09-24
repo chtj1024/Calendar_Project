@@ -1,0 +1,32 @@
+/* calendar 화면 채우기 및 스크롤바 제거 */
+.calendarMain {
+    height: 100vh; /* %는 부모의 영향을 받고 1vh는 view의 height 뷰포트 1/100, 즉 100vh는 전체높이를 의미 */
+    overflow: hidden;
+}
+
+/* electron 메뉴 버튼 */
+.settings-button {
+    position:absolute;
+    border: none;
+    background: none;
+    z-index: 1;
+    right: 120px;
+}
+
+/* 크기 및 위치 조절 모드 시 빗금, 드래그 불가 */
+body.resize-mode {
+    border: dotted;
+    -webkit-app-region: drag; /*  -webkit-app-region CSS 속성은 Electron에서 제공하는 기능 */
+}
+/* 설정메뉴는 드래그 불가 방지 */
+/* 해당 요소의 모든 하위 요소들도 같은 설정을 상속 받기 때문에 settingsMenu 클래스와 그 안에 있는 모든 자식 요소들을 '드래그 불가능 영역'으로 지정 */
+body.resize-mode .ResizeButton,
+body.resize-mode .ResizeButton * {
+    -webkit-app-region: no-drag;
+}
+
+/* 크기 및 위치 조정 모드 시 확인,취소 버튼 */
+.ResizeButton {
+    position:absolute;
+    right: 120px;
+}

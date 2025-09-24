@@ -1,0 +1,6 @@
+// 투명도 기능 추가 시 electron과 react 간에 문제 발생해서 추가한 파일과 코드
+module.exports = {
+    //...
+    target: 'electron-renderer',
+    //...
+  };
