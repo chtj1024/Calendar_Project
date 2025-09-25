@@ -20,4 +20,4 @@
   - Mysql, SQLite를 활용하여 CRUD 구현과 사용자 PC에 일정 이벤트가 저장될 수 있게 구현
 
 ## 설치 시 실행방법
-node_modules 폴더가 없어 새로 설치 시 'npm install' 명령어를 통해 node_moduels파일을 추가하면 된다.
+node_modules 폴더가 없어 새로 설치 시 'npm install' 명령어를 통해 node_moduels 폴더를 추가하면 된다.
