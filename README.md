@@ -29,5 +29,7 @@ node_modules 폴더가 없어 새로 설치 시 'npm install' 명령어를 통�
 캘린더 이벤트 클릭 시 해당 날짜의 이벤트 제목, 내용 등록 기능 구현
 ![](gifs/gif_1.gif)
 
+![](gifs/gif_2.gif)
+
 ## 참고
 https://fullcalendar.io/
