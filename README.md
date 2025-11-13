@@ -24,5 +24,8 @@
 ## 설치 시 실행방법
 node_modules 폴더가 없어 새로 설치 시 'npm install' 명령어를 통해 node_moduels 폴더를 추가하면 된다.
 
+## 구동 영상
+
+
 ## 참고
 https://fullcalendar.io/
