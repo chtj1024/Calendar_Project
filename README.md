@@ -24,6 +24,14 @@
 ## 설치 시 실행방법
 node_modules 폴더가 없어 새로 설치 시 'npm install' 명령어를 통해 node_moduels 폴더를 추가하면 된다.
 
+## 사용된 기술
+- Javascript
+- React
+- Electron
+- Node.js
+- Mysql
+- SQLite
+
 ## 구동 영상
 
 캘린더 이벤트 클릭 시 해당 날짜의 이벤트 제목, 내용 등록 기능 구현
